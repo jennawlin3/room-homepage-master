@@ -254,7 +254,7 @@ header {
     .slide-img img {
         width: 60vw;
         height: 520px;
-        max-width: 900px;
+        max-width: 1055px;
     }
     
     
@@ -298,7 +298,16 @@ header {
         justify-content: center;
         padding: 40px 50px;
     }
-    
+}
+
+@media screen and (min-width: 1366px) {
+    .about-section img {
+        width: 35%;
+    }
+
+    .content-container {
+        width: 40%;
+    }
 }
 
 @media screen and (min-width: 1800px) {
@@ -313,6 +322,4 @@ header {
         max-width: 1800px;
         overflow: hidden;
     }
-
-    
 }
